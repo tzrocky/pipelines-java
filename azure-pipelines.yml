@@ -20,6 +20,10 @@ pool:
   vmImage: $(imageName)
 
 steps:
+- script: |
+    # Write your command line
+    echo "Hello"
+    echo "World"
 - task: Maven@4
   inputs:
     mavenPomFile: "pom.xml"
