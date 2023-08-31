@@ -28,8 +28,9 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      # Write your command line
-      echo 'Hello world from task assistant!'
+      # Write your commands here
+      
+      echo 'Hello world'
 
 - task: Maven@4
   inputs:
